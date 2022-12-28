@@ -1,0 +1,170 @@
+[
+    {
+        "name":     "knife",
+        "clue":     "sub crucket",
+        "key":      "abcdefghijklmno",
+        "encoded":  "🔒st_xzmowcwjponm",
+        "next_key": "🔑hblogkavdrohrdo"
+    },
+    {
+        "name":     "glue",
+        "clue":     "above qtips",
+        "key":      "hblogkavdrohrdo",
+        "encoded":  "🔒uadhzqqzfzetjxm",
+        "next_key": "🔑pknejaibtkeb_qc"
+    },
+    {
+        "name":     "needle square",
+        "clue":     "hot sauce",
+        "key":      "pknejaibtkeb_qc",
+        "encoded":  "🔒tegwjambmqwzaky",
+        "next_key": "🔑_qfufwpgnqducyk"
+    },
+    {
+        "name":     "drill bit set",
+        "clue":     "what she shed",
+        "key":      "_qfufwpgnqducyk",
+        "encoded":  "🔒xsw_vxtzncelbcq",
+        "next_key": "🔑diezomrcph_gddq"
+    },
+    {
+        "name":     "jewelry wire",
+        "clue":     "abrahat",
+        "key":      "diezomrcph_gddq",
+        "encoded":  "🔒yuncupcyltauxxk",
+        "next_key": "🔑eolprryhwluvlxt"
+    },
+    {
+        "name":     "santa",
+        "clue":     "arboreal dangle",
+        "key":      "eolprryhwluvlxt",
+        "encoded":  "🔒xdr_aodeethtwpm",
+        "next_key": "🔑jvkyozjqzotrlag"
+    },
+    {
+        "name":     "mutant santa",
+        "clue":     "cat excitement",
+        "key":      "jvkyozjqzotrlag",
+        "encoded":  "🔒ugjcrzutvruoctu",
+        "next_key": "🔑kgy_oqsfkv_zxjs"
+    },
+    {
+        "name":     "sophia",
+        "clue":     "baba yaga",
+        "key":      "kgy_oqsfkv_zxjs",
+        "encoded":  "🔒svebmijbrfabdri",
+        "next_key": "🔑jdcwbosihmflmdh"
+    },
+    {
+        "name":     "la gran gata",
+        "clue":     "terro",
+        "key":      "jdcwbosihmflmdh",
+        "encoded":  "🔒kbpwnmistovpoxt",
+        "next_key": "🔑vx_vcv_mdowegyr"
+    },
+    {
+        "name":     "santa case",
+        "clue":     "peanut",
+        "key":      "vx_vcv_mdowegyr",
+        "encoded":  "🔒vibtszaoxmewucj",
+        "next_key": "🔑utdenfzargwgo_a"
+    },
+    {
+        "name":     "mutant santa case",
+        "clue":     "jimmys vision",
+        "key":      "utdenfzargwgo_a",
+        "encoded":  "🔒qqjilnbvsmni_a_",
+        "next_key": "🔑yisiinxfcdsnsd_"
+    },
+    {
+        "name":     "sophia case",
+        "clue":     "trap",
+        "key":      "yisiinxfcdsnsd_",
+        "encoded":  "🔒wjjhsndvyxinixa",
+        "next_key": "🔑_jgm_sirbvxvyzy"
+    },
+    {
+        "name":     "lgg case",
+        "clue":     "crows nest",
+        "key":      "_jgm_sirbvxvyzy",
+        "encoded":  "🔒diiktiforzdfcbc",
+        "next_key": "🔑tc_ncurccajkcea"
+    },
+    {
+        "name":     "santa cert",
+        "clue":     "latin twoeyed",
+        "key":      "tc_ncurccajkcea",
+        "encoded":  "🔒tzuwlgcumepvbw_",
+        "next_key": "🔑whsalgifptwxufu"
+    },
+    {
+        "name":     "mutant santa cert",
+        "clue":     "flowers",
+        "key":      "whsalgifptwxufu",
+        "encoded":  "🔒kexwulkvlhedgvg",
+        "next_key": "🔑dq_emmnxhwfxlbu"
+    },
+    {
+        "name":     "lgg cert",
+        "clue":     "leninade",
+        "key":      "dq_emmnxhwfxlbu",
+        "encoded":  "🔒ipoebpritevdpzg",
+        "next_key": "🔑rfcwgkvvbqavo_p"
+    },
+    {
+        "name":     "sophia cert",
+        "clue":     "bench",
+        "key":      "rfcwgkvvbqavo_p",
+        "encoded":  "🔒l_lhbqffzk_fmal",
+        "next_key": "🔑oyjwionzyuuqdxx"
+    },
+    {
+        "name":     "discord printouts",
+        "clue":     "the hardest",
+        "key":      "oyjwionzyuuqdxx",
+        "encoded":  "🔒fkwe_nefhz_kxdd",
+        "next_key": "🔑"
+    },
+    {
+        "name":     "hodor",
+        "clue":     "made redundant",
+        "key":      "abcdefghijklmno",
+        "encoded":  "🔒m_bbwmzxmeuqbgm",
+        "next_key": "🔑elhobtslhqsflhu"
+    },
+    {
+        "name":     "firebiner",
+        "clue":     "no pressure",
+        "key":      "elhobtslhqsflhu",
+        "encoded":  "🔒jdtbqmahnbnvptg",
+        "next_key": "🔑hpofjkubtcmzevp"
+    },
+    {
+        "name":     "dice",
+        "clue":     "aged like",
+        "key":      "hpofjkubtcmzevp",
+        "encoded":  "🔒usrzrbpjmyobwfl",
+        "next_key": "🔑lsmyuavamxhotvn"
+    },
+    {
+        "name":     "dice",
+        "clue":     "the hottest",
+        "key":      "lsmyuavamxhotvn",
+        "encoded":  "🔒iqtcoozttwmmhfn",
+        "next_key": "🔑ndsnjyprefjgev_"
+    },
+    {
+        "name":     "dice",
+        "clue":     "bat heart",
+        "key":      "ndsnjyprefjgev_",
+        "encoded":  "🔒pybnzhmapvruwfa",
+        "next_key": "🔑yuxhizxctz_iqlp"
+    },
+    {
+        "name":     "dice",
+        "clue":     "cold sasquatch",
+        "key":      "yuxhizxctz_iqlp",
+        "encoded":  "🔒fvpxsueqywblnxl",
+        "next_key": "🔑"
+    }
+]
