@@ -26,13 +26,6 @@ def n2c(n: int) -> str:
     assert c in ALPHABET
     return c
 
-
-for n in range(27):
-    assert n == c2n(n2c(n))
-
-for c in ALPHABET:
-    assert c == n2c(c2n(c))
-
 def encode_char(c1: str, c2: str) -> str:
     assert len(c1) == 1
     assert len(c2) == 1
@@ -47,11 +40,6 @@ def decode_char(c1: str, c2: str) -> str:
         n2c((c2n(c1) + c2n(c2)) % 27)
     ])
 
-for c1 in ALPHABET:
-    for c2 in ALPHABET:
-        assert c1 == decode_char(encode_char(c1, c2), c2)
-
-
 @click.group()
 def cli():
     pass
@@ -60,9 +48,9 @@ def cli():
 @click.argument("msg")
 @click.argument("key")
 def encode(msg: str, key: str) -> None:
-    print(_encode(msg, key))
+    print(encode_(msg, key))
 
-def _encode(msg: str, key: str) -> str:
+def encode_(msg: str, key: str) -> str:
     assert len(key) == MSG_LEN
     assert len(msg) <= MSG_LEN
     msg = msg + SEP * (MSG_LEN - len(msg))
@@ -74,9 +62,9 @@ def _encode(msg: str, key: str) -> str:
 @click.argument("encrypted")
 @click.argument("key")
 def decode(encrypted: str, key: str) -> None:
-    print(_decode(encrypted, key))
+    print(decode_(encrypted, key))
 
-def _decode(encrypted: str, key: str) -> str:
+def decode_(encrypted: str, key: str) -> str:
     assert len(key) == MSG_LEN
     assert len(encrypted) <= MSG_LEN
     decrypted = "".join(decode_char(c1, c2) for c1, c2 in zip(encrypted, key))
@@ -89,6 +77,16 @@ def get_key() -> None:
 
 def _get_key() -> str:
     return "".join(random.choice(ALPHABET) for _ in range(MSG_LEN))
+
+"""
+First key:
+
+   🔒rdspavnaajq_tlm
+ + 🔑abcdefghijklmno
+ ___________________
+ = 🔍reuse_this_key_
+"""
+
 
 if __name__ == "__main__":
     cli()
